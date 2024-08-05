@@ -1,27 +1,22 @@
-.menu-h ul{
-    list-style: none;
-    padding: 0 30%;
-    background-color: rgb(0, 190, 102);   
+@import url("styles/header.css");
+
+:root{
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --amarelo: #FECD2F;
+    --roxo-degrade: linear-gradient(94.49deg, #733887 35.48%, #C75EEB 143.32%);
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+    --preto: #000000;
 }
 
-.menu-h ul li{
-    display: inline;
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.menu-h ul li a{
-    color: #ffffff;
-    align-items: center;
-    padding: 20px;
-    display: inline-block;
-    text-decoration: none;
-    transition: background ,4s; 
-}
-
-.menu-h ul li a:hover{
-    background-color: rgb(192, 255, 234);
-    
-}
-
-.imagem-opcoes{
-    align-items: left;
+h1{
+    background-color: white;
 }
